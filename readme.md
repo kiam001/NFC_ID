@@ -1,10 +1,12 @@
-Nextbike Schlüsselgenerierung
+Nextbike-Schlüsselgenerierung
 
-Repo muss in Termux geclont und Python in Termux installiert sein.
+Das Repo muss in Termux geclont und Python in Termux installiert sein.
 
 
-Karte im Mirafare classic Tool scannen und UID unter tools "UID Log" in die Zwischenablage kopieren. 
+Scannen Sie die Karte im Mirafare Classic Tool und kopieren Sie die UID aus dem Menüpunkt „Tools > UID Log” in die Zwischenablage.
 
-python reversed_hex_to_dec.py (UID einfügen) 
+Führen Sie dann „python reversed_hex_to_dec.py (UID einfügen)” aus.
 
-auf https://bikes.dvb.solutions im nextbike Account hinterlegen.
+Hinterlegen Sie die UID anschließend auf https://bikes.dvb.solutions in Ihrem Nextbike-Account.
+
+Danke an https://gitlab.com/S60W79/nxtb-browser
